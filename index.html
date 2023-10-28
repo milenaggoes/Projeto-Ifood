@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ifood</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type=image/x-icon">
+   
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h3 class="logo-titulo">Ifood</h3>
+        </div>
+        <div class="menu">
+            <nav>
+              <ul class="menu-lista">
+                <li><a href="#home" class="menu-lista-item">Home</a></li>
+                <li><a href="#cardapio" class="menu-lista-item">Cardápio</a></li>
+                <li><a href="#restaurantes" class="menu-lista-item">Restaurantes</a></li>
+                <li><a href="#contato" class="menu-lista-item">Contato</a></li>
+              </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="home">
+        <div>
+            <div class="container-titulo">
+                <h1 class="home-titulo">Alimentação à um <span>clique</span>  da sua porta</h1>
+                <img src="./img/cursorAnimated.gif" alt="" width="60px">
+            </div>    
+            <p class="home-subtitulo">O iFood renovado oferece uma plataforma de entrega de alimentos mais intuitiva, com recursos inovadores e benefícios excepcionais. Explore uma variedade de restaurantes locais, menus exclusivos e entrega rápida para desfrutar da sua refeição favorita onde e quando quiser!</p>
+        </div>
+        <div>
+            <img class="logo" src="./img/logo.png" alt="">
+        </div>
+    </section>
+    <section class="cards">
+        <h2 class="page-titulo">Cardápio</h2>
+        <div class="cards-container">
+            <div class="cards-container-item">
+                <img src="./img/pizza.jpg" alt="pizza de cogumelos">
+                <h2 class="cards-item-titulo">Pizza de Cogumelo</h2>
+                <p class="cards-item-subtitulo">Cogumelos frescos, queijo e orégano, oferecendo um sabor terroso e delicioso. E uma opção vegetariana.</p>
+            </div>
+            <div class="cards-container-item">
+                <img src="img/sushi.jpg" alt="barca de sushi variados">
+                <h2 class="cards-item-titulo">Combinado de Sushi</h2>
+                <p class="cards-item-subtitulo">Desfrute da frescura do peixe cru e a suavidade do arroz a combinação de sabores únicos, uma experiência gastronômica memorável.</p>
+            </div>
+            <div class="cards-container-item">
+                <img src="img/Bibimbap.jpg" alt="">
+                <h2 class="cards-item-titulo">Bibimbap</h2>
+                <p class="cards-item-subtitulo">Arroz quente com uma variedade de legumes frescos, carne, um ovo frito e um toque especial de molho gochujang.</p>
+            </div>
+            <div class="cards-container-item">
+                <img src="https://images.unsplash.com/photo-1629385908041-f148b9024d22?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJ1cnJpdG98ZW58MHx8MHx8fDA%3D" alt="">
+                <h2 class="cards-item-titulo">Burrito</h2>
+                <p class="cards-item-subtitulo">A suculência da carne de sua escolha (como carne bovina, de porco ou frango) com arroz, feijão, queijo derretido, guacamole, sour cream</p>
+            </div>
+            <div class="cards-container-item">
+                <img src="./img/Bolo Morango.jpg" alt="">
+                <h2 class="cards-item-titulo">Bolo de Amora</h2>
+                <p class="cards-item-subtitulo">Delicadamente preparado que combina a doçura natural das amoras com a suavidade de uma massa úmida e fofa</p>
+            </div>
+            <div class="cards-container-item">
+                <img src="https://images.unsplash.com/photo-1595904567075-f143cbe1f0c8?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dG9ydGF8ZW58MHwxfDB8fHww" alt="">
+                <h2 class="cards-item-titulo">Torta de morango</h2>
+                <p class="cards-item-subtitulo">Crosta de massa de torta quebradiça e dourada com um recheio generoso de morangos frescos e suculentos.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 class="page-titulo">Melhores Restaurantes</h2>
+        <div class="tabela-container">
+            <table>
+                <tr>
+                    <th>Churrascaria Delícia das Carnes</th>
+                    <th>Seoul Spice House</th>
+                    <th>Mariscos à Beira-mar</th>
+                    <th>Sabores Brasileiros</th>
+                    <th>Burger Bliss & Co.</th>
+                    <th>La Trattoria Italiana</th>
+                    <th>Maria Baunilha</th>
+                    
+                </tr>
+                <tr>
+                    <td>4.5</td>
+                    <td>4.8</td>
+                    <td>4.2</td>
+                    <td>5.0</td>
+                    <td>4.8</td>
+                    <td>4.0</td>
+                    <td>5.0</td>
+                </tr>
+                <tr>
+                    <td>Churrascaria com carnes premium</td>
+                    <td>Culinária coreana</td>
+                    <td>Especialidades de frutos do mar</td>
+                    <td>Comidas brasileiras variadas</td>
+                    <td>Hambúgueres e porções</td>
+                    <td>Massas itálianas</td>
+                    <td>Doces Veganos</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-form">  
+            <h2 class="page-titulo">Fale conosco</h2>
+            <form method="post" onsubmit="onSubmit()">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+        
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+        
+                <button type="submit">Enviar</button>
+                
+            </form>
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="contact-info">
+            <p>Entre em contato conosco:</p>
+            <p>E-mail: <a href="mailto:contato@seusite.com">contato@ifood.com</a></p>
+            <p>Telefone de Suporte: <a href="tel:+123456789">+11 3456-789</a></p>
+        </div>
+    </footer>
+
+</body>
+<script>
+    function onSubmit () {
+      alert('Feedback enviado com sucesso!')
+    }
+</script>
+</html>

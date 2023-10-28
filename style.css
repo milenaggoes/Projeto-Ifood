@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Sora', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    border-bottom: 0.1px solid #f5e7e7;
+}
+
+.logo-titulo{
+    color: #EA1D2C;
+    font-size: 30px;
+}
+
+.menu-lista{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.menu-lista-item{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.menu-lista-item:hover{
+    color: #EA1D2C;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 110px;
+    padding: 80px 150px;
+    align-items: center;
+}
+
+.container-titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.home-titulo{
+    font-size: 38px;
+}
+
+.home-subtitulo{
+    margin-top: 15px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+span{
+    color: #EA1D2C;
+}
+
+.cards{
+    margin: 50px;
+}
+
+.cards-container{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.cards-container-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 220px;
+    padding: 15px;
+   box-shadow: 5px 5px 10px #888888;
+}
+
+.cards-container-item:hover{
+    box-shadow: 10px 10px 10px 10px #888888;
+}
+
+.page-titulo{
+    text-align: center;
+    color: #000;
+    margin: 100px 20px;
+}
+
+.cards img{
+    width: 220px;
+    height: 180px;
+}
+
+.cards-item-titulo{
+    font-size: 15px;
+    margin: 15px;
+    
+}
+
+.cards-item-subtitulo{
+    font-size: 12px;
+}
+
+.tabela-container{
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0px 20px;
+}
+
+th, td {
+    
+    padding: 35px;
+    text-align: center;
+    font-size: 15px;
+}
+tr{
+    width: 2500px;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+    background-color: #EDB7ED;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    background-color: #82A0D8;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+    background-color: #ECEE81;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+    background-color: #94A684;
+}
+th:nth-child(5),
+td:nth-child(5) {
+    background-color: #BA90C6;
+}
+th:nth-child(6),
+td:nth-child(6) {
+    background-color: #FFD966;
+}
+th:nth-child(7),
+td:nth-child(7) {
+    background-color: #B9F3E4;
+}
+
+.container-form{
+    margin: 122px 0;
+    background-image:url("./img/garoraTelefone.png");
+    background-repeat: no-repeat ; 
+    background-position: end;
+}
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 18px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    width: 420px;
+    background-color: #EA1D2C;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+button:hover {
+    background-color: #db5059;
+}
+
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact-info {
+    font-size: 18px;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+}
